@@ -9,6 +9,17 @@ The work can be organized in the following sequence (pipeline):
 
 ## Spam filter
 
+### Files:
+
+* `spam_classifier.py` - contains class `SpamClassifier`, which represent classifier for spam,
+
+    Weights should be downloaded manually from
+[google disk](https://drive.google.com/file/d/1rpwl69WpuXcPkqaEuNNA13qI7AwbbDYU/view?usp=sharing).
+
+    Put the downloaded files next to the file `spam_classifier.py`
+
+* `spam_bert.ipynb` and `spam_baseline.ipynb` - contains training and validation BERT model and baseline model.
+
 ## Toxic filter
 
 ### Files:
