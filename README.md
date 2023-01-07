@@ -35,4 +35,11 @@ was compared with baseline model.
 
 ## Sentimental analysis
 
+* `sentiment_analysis_model.py` - python script for loading model's weights and inference
+
+* `bert-sentiment-emotions-analysis.ipynb` - notebook with BERT model's performance on solving sentiment (emotions) analysis task
+
+    Weights should be downloaded manually from
+[google disk](https://drive.google.com/file/d/1-24yxp4e5ViSONAbt90te8-JgeGykmhw/view?usp=sharing).
+
 ## Topic modeling
