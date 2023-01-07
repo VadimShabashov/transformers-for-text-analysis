@@ -64,6 +64,6 @@ class SpamClassifier:
 
     def predict(self, data: pd.DataFrame):
         data[data.columns[0]] = data[data.columns[0]].apply(text_preprocess)
-        X, X_masks = self.prepare(data.values)
+        X, X_masks = self.prepare(data[data.columns[0]].to_list())
         predictions = self.model.predict_on_batch([X, X_masks])
         return [p[0] for p in predictions]
