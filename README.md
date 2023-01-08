@@ -39,6 +39,10 @@ was compared with baseline model.
 
 * `bert-sentiment-emotions-analysis.ipynb` - notebook with BERT model's performance on solving sentiment (emotions) analysis task
 
+* `baseline-tf-idf-sentiment-analysis.ipynb` - notebook with baseline model's performance on solving sentiment analysis task
+
+If some plots are not visualized in GitHub please check the notebooks on Kaggle for [BERT](https://www.kaggle.com/code/xyinspired/bert-sentiment-emotions-analysis/notebook) and [baseline](https://www.kaggle.com/code/xyinspired/baseline-tf-idf-sentiment-analysis/notebook)
+
     Weights should be downloaded manually from
 [google disk](https://drive.google.com/file/d/1-24yxp4e5ViSONAbt90te8-JgeGykmhw/view?usp=sharing).
 
