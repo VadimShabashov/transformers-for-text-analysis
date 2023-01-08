@@ -35,6 +35,8 @@ was compared with baseline model.
 
 ## Sentiment analysis
 
+### Files:
+
 * `sentiment_analysis_model.py` - python script for loading model's weights and inference
 
 * `bert-sentiment-emotions-analysis.ipynb` - notebook with BERT model's performance on solving sentiment (emotions) analysis task
